@@ -1,0 +1,96 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap');
+
+body {
+    font-family: 'Montserrat', Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background: linear-gradient(135deg, #e0eafc 0%, #cfdef3 100%);
+    min-height: 100vh;
+}
+
+h1 {
+    text-align: center;
+    color: #2d3a4b;
+    margin-top: 40px;
+    font-size: 2.5rem;
+    letter-spacing: 2px;
+    font-weight: 700;
+}
+
+form {
+    background: #fff;
+    padding: 32px 28px 24px 28px;
+    border-radius: 18px;
+    box-shadow: 0 8px 32px rgba(44, 62, 80, 0.12);
+    max-width: 520px;
+    margin: 40px auto 0 auto;
+    transition: box-shadow 0.3s;
+}
+
+form:hover {
+    box-shadow: 0 12px 40px rgba(44, 62, 80, 0.18);
+}
+
+label {
+    display: block;
+    margin-bottom: 8px;
+    font-weight: 700;
+    color: #34495e;
+    letter-spacing: 1px;
+}
+
+input[type="text"],
+textarea {
+    width: 95%;
+    padding: 12px 14px;
+    margin-bottom: 22px;
+    border: 1.5px solid #b2bec3;
+    border-radius: 7px;
+    font-size: 1rem;
+    background: #f8fafc;
+    transition: border-color 0.2s, box-shadow 0.2s;
+    font-family: 'Montserrat', Arial, sans-serif;
+}
+
+input[type="text"]:focus,
+textarea:focus {
+    border-color: #5cb85c;
+    outline: none;
+    box-shadow: 0 0 0 2px #d4f3d4;
+}
+
+textarea {
+    resize: vertical;
+    min-height: 80px;
+    max-height: 200px;
+}
+
+button {
+    background: linear-gradient(90deg, #5cb85c 60%, #48c6ef 100%);
+    color: white;
+    padding: 12px 28px;
+    border: none;
+    border-radius: 7px;
+    cursor: pointer;
+    font-size: 1.1rem;
+    font-weight: 700;
+    letter-spacing: 1px;
+    box-shadow: 0 2px 8px rgba(44, 62, 80, 0.08);
+    transition: background 0.2s, transform 0.2s;
+}
+
+button:hover {
+    background: linear-gradient(90deg, #48c6ef 0%, #5cb85c 100%);
+    transform: translateY(-2px) scale(1.03);
+}
+
+@media (max-width: 600px) {
+    form {
+        padding: 18px 8px 14px 8px;
+        max-width: 98vw;
+    }
+    h1 {
+        font-size: 1.5rem;
+        margin-top: 18px;
+    }
+}

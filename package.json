@@ -1,0 +1,19 @@
+{
+  "name": "internship-report-web",
+  "version": "1.0.0",
+  "description": "A web project for submitting internship reports.",
+  "main": "src/index.html",
+  "scripts": {
+    "start": "live-server src"
+  },
+  "keywords": [
+    "internship",
+    "report",
+    "web"
+  ],
+  "author": "Your Name",
+  "license": "ISC",
+  "dependencies": {
+    "live-server": "^1.2.1"
+  }
+}
